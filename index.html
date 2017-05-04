@@ -347,18 +347,10 @@
       
         
           
-            <p>父组件监听  子组件出发</p>
-<p>可以用.native  原生的冒泡监听</p>
-<p> Prop        12345  数据传递  父传子<br>Super<br>      <div v-model="“supermsg”"> </div>             1<br>      <children :childmsg="“supermsg”"></children>  3</p>
-<pre><code>data:supermsg                               2
-</code></pre><p>Child<br>             <div> </div>           5</p>
-<pre><code>prop:[childmsg]                        4
-</code></pre><p> $emit    1234事件传递    子传父<br>   Super<br>                  <div> </div><br>                <children @childadd="“superadd”"></children>  3  监听<br>                <children @childadd="“superadd”"></children></p>
-<p>Metheds:<br>superadd(){<br>       this.num++   4    增加<br>}</p>
-<p>Child<br>    <button @click="‘childadd’"> </button>   1  点击</p>
-<pre><code>Metheds:{
-childadd:this.$emit(‘childadd’)         2   触发
-</code></pre><p>}</p>
+            <h4 id="父组件监听-子组件出发"><a href="#父组件监听-子组件出发" class="headerlink" title="父组件监听  子组件出发"></a>父组件监听  子组件出发</h4><p>Prop<br>12345  数据传递  父传子</p>
+<p>Super<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">v-model</span>=<span class="string">“supermsg”</span>&gt;</span> <span class="tag">&lt;/<span class="name">div</span>&gt;</span>             1</div><div class="line">      <span class="tag">&lt;<span class="name">children</span> <span class="attr">:childmsg</span>=<span class="string">“supermsg”</span>&gt;</span><span class="tag">&lt;/<span class="name">children</span>&gt;</span>  3</div><div class="line"></div><div class="line">      data:supermsg                               2</div><div class="line"></div><div class="line">Child</div><div class="line">      <span class="tag">&lt;<span class="name">div</span> &gt;</span> &#123;&#123; childmsg&#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span>                  5</div><div class="line"></div><div class="line">      prop:[childmsg]                             4</div></pre></td></tr></table></figure></p>
+<h4 id="子组件触发-父组件更新"><a href="#子组件触发-父组件更新" class="headerlink" title="子组件触发  父组件更新"></a>子组件触发  父组件更新</h4><p>$emit<br>1234 事件传递    子传父</p>
+<p>Super<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">      <span class="tag">&lt;<span class="name">div</span>&gt;</span> &#123;&#123;num&#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">children</span> @<span class="attr">childadd</span>=<span class="string">“superadd”</span>&gt;</span><span class="tag">&lt;/<span class="name">children</span>&gt;</span>  3  监听</div><div class="line"></div><div class="line">Metheds:</div><div class="line">superadd()&#123;</div><div class="line">       this.num++                                 4  增加</div><div class="line">&#125;</div><div class="line"></div><div class="line">Child</div><div class="line">    <span class="tag">&lt;<span class="name">button</span> @<span class="attr">click</span>=<span class="string">‘childadd’</span> &gt;</span> <span class="tag">&lt;/<span class="name">button</span>&gt;</span>         1  点击</div><div class="line"></div><div class="line">    Metheds:&#123;</div><div class="line">    childadd:this.$emit(‘childadd’)               2   触发</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 
           
         
