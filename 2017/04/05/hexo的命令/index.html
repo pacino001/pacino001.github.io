@@ -87,15 +87,17 @@
 
 
 
-<meta name="description" content="任何人的生命都是宝贵的，一切为了迎合别人而装模作样浪费生命是不值得的。">
-<meta property="og:type" content="website">
+<meta name="description" content="简写 hexo n “我的博客” == hexo new “我的博客” #新建文章hexo p == hexo publishhexo g == hexo generate#生成hexo s == hexo server #启动服务预览hexo d == hexo deploy#部署服务器 hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。hexo server -s">
+<meta name="keywords">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Jingtaobar">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2017/04/05/hexo的命令/index.html">
 <meta property="og:site_name" content="Jingtaobar">
-<meta property="og:description" content="任何人的生命都是宝贵的，一切为了迎合别人而装模作样浪费生命是不值得的。">
+<meta property="og:description" content="简写 hexo n “我的博客” == hexo new “我的博客” #新建文章hexo p == hexo publishhexo g == hexo generate#生成hexo s == hexo server #启动服务预览hexo d == hexo deploy#部署服务器 hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。hexo server -s">
+<meta property="og:updated_time" content="2017-06-12T16:55:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Jingtaobar">
-<meta name="twitter:description" content="任何人的生命都是宝贵的，一切为了迎合别人而装模作样浪费生命是不值得的。">
+<meta name="twitter:description" content="简写 hexo n “我的博客” == hexo new “我的博客” #新建文章hexo p == hexo publishhexo g == hexo generate#生成hexo s == hexo server #启动服务预览hexo d == hexo deploy#部署服务器 hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。hexo server -s">
 
 
 
@@ -123,13 +125,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/04/05/hexo的命令/"/>
 
 
 
 
 
-  <title> Jingtaobar </title>
+  <title>  | Jingtaobar </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -154,9 +156,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -259,133 +259,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/04/vue的父子组件数据传递/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="pacino">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jingtaobar">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/05/04/vue的父子组件数据传递/" itemprop="url">
-                  vue的父子组件数据传递
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-04T22:51:59+08:00">
-                2017-05-04
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h4 id="父组件监听-子组件出发"><a href="#父组件监听-子组件出发" class="headerlink" title="父组件监听  子组件出发"></a>父组件监听  子组件出发</h4><p>Prop<br>12345  数据传递  父传子</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">Super</div><div class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">v-model</span>=<span class="string">“supermsg”</span>&gt;</span> <span class="tag">&lt;/<span class="name">div</span>&gt;</span>             1</div><div class="line">      <span class="tag">&lt;<span class="name">children</span> <span class="attr">:childmsg</span>=<span class="string">“supermsg”</span>&gt;</span><span class="tag">&lt;/<span class="name">children</span>&gt;</span>  3</div><div class="line"></div><div class="line">      data:supermsg                               2</div><div class="line"></div><div class="line">Child</div><div class="line">      <span class="tag">&lt;<span class="name">div</span> &gt;</span> &#123;&#123; childmsg&#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span>                  5</div><div class="line"></div><div class="line">      prop:[childmsg]                             4</div></pre></td></tr></table></figure>
-<h4 id="子组件触发-父组件更新"><a href="#子组件触发-父组件更新" class="headerlink" title="子组件触发  父组件更新"></a>子组件触发  父组件更新</h4><p>$emit<br>1234 事件传递    子传父</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">Super</div><div class="line">      <span class="tag">&lt;<span class="name">div</span>&gt;</span> &#123;&#123;num&#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">children</span> @<span class="attr">childadd</span>=<span class="string">“superadd”</span>&gt;</span><span class="tag">&lt;/<span class="name">children</span>&gt;</span>  3  监听</div><div class="line"></div><div class="line">Metheds:</div><div class="line">superadd()&#123;</div><div class="line">       this.num++                                 4  增加</div><div class="line">&#125;</div><div class="line"></div><div class="line">Child</div><div class="line">    <span class="tag">&lt;<span class="name">button</span> @<span class="attr">click</span>=<span class="string">‘childadd’</span> &gt;</span> <span class="tag">&lt;/<span class="name">button</span>&gt;</span>         1  点击</div><div class="line"></div><div class="line">    Metheds:&#123;</div><div class="line">    childadd:this.$emit(‘childadd’)               2  触发</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
 
   
 
@@ -416,9 +292,6 @@
             
               
                 
-                <a class="post-title-link" href="/2017/04/05/hexo的命令/" itemprop="url">
-                  未命名
-                </a>
               
             
           </h1>
@@ -469,9 +342,7 @@
       
 
       
-        
-          
-            <p>简写</p>
+        <p>简写</p>
 <p>hexo n “我的博客” == hexo new “我的博客” #新建文章<br>hexo p == hexo publish<br>hexo g == hexo generate#生成<br>hexo s == hexo server #启动服务预览<br>hexo d == hexo deploy#部署<br>服务器</p>
 <p>hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br>hexo server -s #静态模式<br>hexo server -p 5000 #更改端口<br>hexo server -i 192.168.1.1 #自定义 IP<br>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署<br>监视文件变动</p>
 <p>hexo generate #使用 Hexo 生成静态文件快速而且简单<br>hexo generate –watch #监视文件变动<br>完成后部署</p>
@@ -480,20 +351,27 @@
 <p>hexo publish [layout] title<br>模版</p>
 <p>hexo new “postName” #新建文章<br>hexo new page “pageName” #新建页面<br>hexo generate #生成静态页面至public目录<br>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy #将.deploy目录部署到GitHub<br>hexo new [layout] title<br>hexo new photo “My Gallery”<br>hexo new “Hello World” –lang tw<br>title: 使用Hexo搭建个人博客    //标题<br>layout: post                //<br>date: 2014-03-03 19:07:43   //时间<br>comments: true              //评论<br>categories: Blog            //类别<br>tags: [Hexo]                //标签<br>keywords: Hexo, Blog        //关键词<br>description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。 //描述<br>还没写完有空再来完善</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
@@ -501,21 +379,38 @@
       
 
       
-
+        
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/05/04/vue的父子组件数据传递/" rel="next" title="vue的父子组件数据传递">
+                <i class="fa fa-chevron-left"></i> vue的父子组件数据传递
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
-        <div class="post-eof"></div>
+
+      
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -523,6 +418,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -701,6 +600,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
