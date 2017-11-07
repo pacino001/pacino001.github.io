@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>惊涛酒馆</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-11-07T08:58:56.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>pacino</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo的使用</title>
+    <link href="http://yoursite.com/2017/06/13/hexo%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2017/06/13/hexo的使用/</id>
+    <published>2017-06-12T17:07:40.000Z</published>
+    <updated>2017-11-07T08:58:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="HEXO"><a href="#HEXO" class="headerlink" title="HEXO"></a>HEXO</h1><h2 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h2><ul><li>hexo n “我的博客” == hexo new “我的博客” #新建文章</li><li>hexo p == hexo publish</li><li>hexo g == hexo generate#生成</li><li>hexo s == hexo server #启动服务预览</li><li>hexo d == hexo deploy#部署</li></ul><h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><ul><li>hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。</li><li>hexo server -s #静态模式</li><li>hexo server -p 5000 #更改端口</li><li>hexo server -i 192.168.1.1 #自定义 IP</li><li>hexo clean #清除缓存 网页正常情况下可以忽略此条命令</li><li>hexo g #生成静态网页</li><li>hexo d #开始部署</li></ul><h2 id="监视文件变动"><a href="#监视文件变动" class="headerlink" title="监视文件变动"></a>监视文件变动</h2><ul><li>hexo generate #使用 Hexo 生成静态文件快速而且简单</li><li>hexo generate –watch #监视文件变动</li></ul><h2 id="完成后部署"><a href="#完成后部署" class="headerlink" title="完成后部署"></a>完成后部署</h2><p>两个命令的作用是相同的</p><ul><li>hexo generate –deploy</li><li>hexo deploy –generate</li><li>hexo deploy -g</li><li>hexo server -g</li></ul><h2 id="草稿"><a href="#草稿" class="headerlink" title="草稿"></a>草稿</h2><ul><li>hexo publish [layout] title</li></ul><h2 id="模版"><a href="#模版" class="headerlink" title="模版"></a>模版</h2><ul><li>hexo new “postName” #新建文章</li><li>hexo new page “pageName” #新建页面</li><li>hexo generate #生成静态页面至public目录</li><li>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）</li><li>hexo deploy #将.deploy目录部署到GitHub</li><li>hexo new [layout] title</li><li>hexo new photo “My Gallery”</li><li>hexo new “Hello World” –lang tw</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">title: 使用Hexo搭建个人博客    <span class="comment">//标题</span></div><div class="line">layout: post                <span class="comment">//</span></div><div class="line">date: <span class="number">2014</span><span class="number">-03</span><span class="number">-03</span> <span class="number">19</span>:<span class="number">07</span>:<span class="number">43</span>   <span class="comment">//时间</span></div><div class="line">comments: <span class="literal">true</span>              <span class="comment">//评论</span></div><div class="line">categories: Blog            <span class="comment">//类别</span></div><div class="line">tags: [Hexo]                <span class="comment">//标签</span></div><div class="line">keywords: Hexo, Blog        <span class="comment">//关键词</span></div><div class="line">description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。 <span class="comment">//描述</span></div></pre></td></tr></table></figure><p>还没写完有空再来完善</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;HEXO&quot;&gt;&lt;a href=&quot;#HEXO&quot; class=&quot;headerlink&quot; title=&quot;HEXO&quot;&gt;&lt;/a&gt;HEXO&lt;/h1&gt;&lt;h2 id=&quot;简写&quot;&gt;&lt;a href=&quot;#简写&quot; class=&quot;headerlink&quot; title=&quot;简写&quot;&gt;&lt;/a&gt;简写&lt;/h
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue的父子组件数据传递</title>
+    <link href="http://yoursite.com/2017/05/04/vue%E7%9A%84%E7%88%B6%E5%AD%90%E7%BB%84%E4%BB%B6%E6%95%B0%E6%8D%AE%E4%BC%A0%E9%80%92/"/>
+    <id>http://yoursite.com/2017/05/04/vue的父子组件数据传递/</id>
+    <published>2017-05-04T14:51:59.000Z</published>
+    <updated>2017-11-07T09:01:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="vue的父子组件数据传递"><a href="#vue的父子组件数据传递" class="headerlink" title="vue的父子组件数据传递"></a>vue的父子组件数据传递</h1><h2 id="父组件监听-子组件出发"><a href="#父组件监听-子组件出发" class="headerlink" title="父组件监听  子组件出发"></a>父组件监听  子组件出发</h2><p>Prop<br>12345  数据传递  父传子</p><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">Super</div><div class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">v-model</span>=<span class="string">“supermsg”</span>&gt;</span> <span class="tag">&lt;/<span class="name">div</span>&gt;</span>             1</div><div class="line">      <span class="tag">&lt;<span class="name">children</span> <span class="attr">:childmsg</span>=<span class="string">“supermsg”</span>&gt;</span><span class="tag">&lt;/<span class="name">children</span>&gt;</span>  3</div><div class="line"></div><div class="line">      data:supermsg                               2</div><div class="line"></div><div class="line">Child</div><div class="line">      <span class="tag">&lt;<span class="name">div</span> &gt;</span> &#123;&#123; childmsg&#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span>                  5</div><div class="line"></div><div class="line">      prop:[childmsg]                             4</div></pre></td></tr></table></figure><h2 id="子组件触发-父组件更新"><a href="#子组件触发-父组件更新" class="headerlink" title="子组件触发  父组件更新"></a>子组件触发  父组件更新</h2><p>$emit<br>1234 事件传递    子传父</p><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">Super</div><div class="line">      <span class="tag">&lt;<span class="name">div</span>&gt;</span> &#123;&#123;num&#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">children</span> @<span class="attr">childadd</span>=<span class="string">“superadd”</span>&gt;</span><span class="tag">&lt;/<span class="name">children</span>&gt;</span>  3  监听</div><div class="line"></div><div class="line">Metheds:</div><div class="line">superadd()&#123;</div><div class="line">       this.num++                                 4  增加</div><div class="line">&#125;</div><div class="line"></div><div class="line">Child</div><div class="line">    <span class="tag">&lt;<span class="name">button</span> @<span class="attr">click</span>=<span class="string">‘childadd’</span> &gt;</span> <span class="tag">&lt;/<span class="name">button</span>&gt;</span>         1  点击</div><div class="line"></div><div class="line">    Metheds:&#123;</div><div class="line">    childadd:this.$emit(‘childadd’)               2  触发</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;vue的父子组件数据传递&quot;&gt;&lt;a href=&quot;#vue的父子组件数据传递&quot; class=&quot;headerlink&quot; title=&quot;vue的父子组件数据传递&quot;&gt;&lt;/a&gt;vue的父子组件数据传递&lt;/h1&gt;&lt;h2 id=&quot;父组件监听-子组件出发&quot;&gt;&lt;a href=&quot;#父组
+      
+    
+    </summary>
+    
+      <category term="vue" scheme="http://yoursite.com/categories/vue/"/>
+    
+    
+      <category term="vue" scheme="http://yoursite.com/tags/vue/"/>
+    
+  </entry>
+  
+</feed>
