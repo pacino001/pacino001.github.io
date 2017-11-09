@@ -3,10 +3,22 @@
   
     
     <entry>
-      <title><![CDATA[“es6学习笔记“]]></title>
+      <title><![CDATA[es6学习笔记]]></title>
       <url>/2017/11/09/es6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
       <content type="html"></content>
       
+        <categories>
+            
+            <category> javascript </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> es6 </tag>
+            
+        </tags>
         
     </entry>
     
