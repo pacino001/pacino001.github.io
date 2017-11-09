@@ -4,14 +4,14 @@
 
     
   <url>
-    <loc>http://www.jingtaobar.com/2017/11/09/es6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2017-11-09T12:42:22.000Z</lastmod>
+    <loc>http://www.jingtaobar.com/2017/05/04/vue%E7%9A%84%E7%88%B6%E5%AD%90%E7%BB%84%E4%BB%B6%E6%95%B0%E6%8D%AE%E4%BC%A0%E9%80%92/</loc>
+    <lastmod>2017-11-09T12:43:47.000Z</lastmod>
     <data>
         <display>
-        <title>es6学习笔记</title>
-        <pubTime>2017-11-09T11:34:25.000Z</pubTime>
+        <title>vue的父子组件数据传递</title>
+        <pubTime>2017-05-04T14:51:59.000Z</pubTime>
         
-        <tag>es6</tag>
+        <tag>vue</tag>
          
          
            
@@ -24,19 +24,19 @@
 
     
   <url>
-    <loc>http://www.jingtaobar.com/2017/05/04/vue%E7%9A%84%E7%88%B6%E5%AD%90%E7%BB%84%E4%BB%B6%E6%95%B0%E6%8D%AE%E4%BC%A0%E9%80%92/</loc>
-    <lastmod>2017-11-07T09:01:06.000Z</lastmod>
+    <loc>http://www.jingtaobar.com/2017/11/09/es6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2017-11-09T12:43:37.000Z</lastmod>
     <data>
         <display>
-        <title>vue的父子组件数据传递</title>
-        <pubTime>2017-05-04T14:51:59.000Z</pubTime>
+        <title>es6学习笔记</title>
+        <pubTime>2017-11-09T11:34:25.000Z</pubTime>
         
-        <tag>vue</tag>
+        <tag>es6</tag>
          
          
            
              
-              <breadCrumb title="vue" url="http://www.jingtaobar.com/categories/vue/"/>
+              <breadCrumb title="javascript" url="http://www.jingtaobar.com/categories/javascript/"/>
           
         </display>
     </data>
