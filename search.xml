@@ -3,8 +3,8 @@
   
     
     <entry>
-      <title><![CDATA[Git常用命令整理]]></title>
-      <url>/2017/11/17/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E6%95%B4%E7%90%86/</url>
+      <title><![CDATA[git常用命令整理]]></title>
+      <url>/2017/11/17/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E6%95%B4%E7%90%86/</url>
       <content type="html"><![CDATA[<h1 id="Git-常用命令整理"><a href="#Git-常用命令整理" class="headerlink" title="Git 常用命令整理"></a>Git 常用命令整理</h1><h2 id="1-Git-配置"><a href="#1-Git-配置" class="headerlink" title="1.Git 配置"></a>1.Git 配置</h2><h3 id="1-设置邮箱、用户名命令git-config"><a href="#1-设置邮箱、用户名命令git-config" class="headerlink" title="1.设置邮箱、用户名命令git config"></a>1.设置邮箱、用户名命令<code>git config</code></h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name <span class="string">"your name"</span>      <span class="comment">// 设置全局用户名</span></div><div class="line">git config --global user.email <span class="string">"your email"</span>    <span class="comment">// 设置邮箱</span></div></pre></td></tr></table></figure>
 <p>–global 指定为全局配置，不使用该参数，则为当前所在仓库配置。</p>
 <h3 id="2-查看所有的已经做出的配置："><a href="#2-查看所有的已经做出的配置：" class="headerlink" title="2.查看所有的已经做出的配置："></a>2.查看所有的已经做出的配置：</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">git config -l</div></pre></td></tr></table></figure>
