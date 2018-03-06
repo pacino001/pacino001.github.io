@@ -359,6 +359,6 @@ git stash clear // 丢弃所有保存的临时修改
 
 ## 7.获取ssh
 
-```javascript
-open ~/.ssh
+```bash
+pbcopy < ~/.ssh/id_rsa.pub
 ```
